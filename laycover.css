@@ -1,0 +1,112 @@
+.bg{
+    background-color: rgb(47,27,199);
+    background-image: url(draw.png);
+}
+.del{
+    margin-top: 11%;
+    margin-left: 7%;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    font-size: 920%;
+    letter-spacing: 118px;
+    color: rgb(255, 255, 16);
+}
+
+
+ a.aboutme{
+    position: absolute;right:400px;top:260px;
+    background-image: url("./icons/about me.png");
+    width: 140px;
+    height: 140px;
+    background-size:cover;
+ }
+ a.aboutme:hover{
+    background-image: url("./icons/abhover.png");
+ }
+
+.protfo{
+    position: absolute;right:200px;top:233px;
+    width: 140px;
+    height: 140px;
+}
+
+.contact{
+    position: absolute;right:98px;top:130px;
+    width: 140px;
+    height: 140px;
+}
+
+
+@media(max-width:1024px){
+    .bg{
+        background-image:none;
+        background-size: cover;
+        background-image: url(draw.png);
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        float: bottom;
+    }
+    .del{
+        margin-top: 12%;
+        letter-spacing: 66px;
+        font-size: 650%;
+    }
+    a.aboutme{
+        position:absolute ;right:20.3%;top:25%;
+        font-size: 18px;
+        width: 100px;
+        height:100px;
+    }
+    .protfo{
+        position:absolute ;right:18%;top:36%;
+        font-size: 18px;
+        width: 100px;
+        height:100px;
+    }
+    .contact{
+        position:absolute ;right:18%;top:48%;
+        font-size: 18px;
+        width: 100px;
+        height:100px;
+    }
+    a{
+        position: relative;
+        top:40%;
+    }
+
+}
+
+@media(max-width:500px){
+    .bg{
+        background-color: rgb(47,27,199);
+        background-image: none;
+    }
+    .del{
+        margin-top: 18%;
+        letter-spacing: 60px;
+        font-size: 580%;
+    }
+    a.aboutme{
+        position:absolute ;right:250px;top:480px;
+        font-size: 18px;
+        width: 100px;
+        height:100px;
+    }
+    .protfo{
+        position:absolute ;right:68.5px;top:240px;
+        font-size: 18px;
+        width: 100px;
+        height:100px;
+    }
+    .contact{
+        position:absolute ;right:12px;top:240px;
+        font-size: 18px;
+        width: 100px;
+        height:100px;
+    }
+    a{
+        position: relative;
+        top:40%;
+    }
+}
