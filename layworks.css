@@ -13,7 +13,7 @@
     letter-spacing: 1.2px;
 }
 .labeldel{
-    position: fixed;right:50px;top:2%;
+    position: absolute;right:50px;top:2%;
     font-family:sans-serif;
     font-weight: bolder;
     font-stretch: extra-expanded;
@@ -128,8 +128,8 @@ a{
 }
 @media(max-width:500px){
     .labeldel{
-        position: absolute;right:10px;top:1%;
-        font-size: 160%;
+        position: absolute;right:10px;top:3%;
+        font-size: 180%;
         letter-spacing: 2px;
     }
     .pc{
