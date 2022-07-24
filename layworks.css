@@ -20,6 +20,12 @@
     font-size: 400%;
     letter-spacing: 4px;
 }
+.pc{
+    display: block;
+}
+.mobile{
+    display: none;
+}
 .lower{
     display: flex;
     margin-top: 6%;
@@ -91,37 +97,52 @@ a{
         margin-left: 6%;
         letter-spacing: 4px;
     }
+    .pc{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
     .title{
         margin-top: 30px;
         margin-right: 18%;
         flex-wrap:wrap;
     }
     .year{
-        margin-left: 18%;
-        font-size: 72px;
+        margin-left: 30%;
+        font-size: 64px;
         letter-spacing: 12px;
     }
     .yearline{
-        margin-left: 60%;
-        font-size: 60px;
+        margin-left: 42%;
+        font-size: 52px;
     }
     .intro{
-        margin-left: 5%;
+        white-space: normal;
     }
     .lower{
+        font-size: 14px;
+        display: block;
         margin-left: 2%;
     }
 }
 @media(max-width:500px){
     .labeldel{
-        position: absolute;right:10px;top:6%;
-        font-size: 280%;
+        position: absolute;right:10px;top:1%;
+        font-size: 160%;
         letter-spacing: 2px;
+    }
+    .pc{
+        display: none;
+    }
+    .mobile{
+        display: block;
     }
     .lower{
         display: block;
     }
     .intro{
+        font-size: 12px;
         word-wrap:break-word;
         white-space:normal;
         margin-top: 2px;
@@ -136,4 +157,5 @@ a{
         font-size: 48px;
     }
 }
+
 
