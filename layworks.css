@@ -156,6 +156,12 @@ a{
         margin-left: 47%;
         font-size: 48px;
     }
+    .pc{
+        display:none;
+    }
+    .mobile{
+        display:block;
+    }
 }
 
 
