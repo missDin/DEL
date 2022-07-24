@@ -1,3 +1,7 @@
+.bg{
+    background-image: url("aboutme.png");
+    background-repeat: no-repeat;
+}
 .back{
     float: left;
 }
@@ -6,12 +10,22 @@
     margin-top:11%;
     margin-left: 24%;
 }
+.button{
+    display: block;
+}
+.mobile{
+    display: none;
+}
 .leftpart{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 3px;
     font-size:15px;
     animation: fadin 1.2s;
     margin-left: 16%;
+}
+.special{
+    letter-spacing: 5px;
+    font-size: 16px;
 }
 .me{
    width:120% ;
@@ -73,6 +87,7 @@
     text-align: center;
     line-height: 50px;
 }
+
 .font:hover{
     color: rgb(255, 255, 255);
 }
@@ -107,6 +122,41 @@
 }
 
 @media (max-width:500px){
+    .button{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        position: absolute;top: 0.5%;left:1.2px;
+    }
+    .mfont{
+        display: flex;
+        font-size: 14px;
+        color: rgb(240, 240, 240);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 20px;
+
+    }
+    .mfont1{
+        border-radius: 10% / 50% ;
+        width: 95px;
+        margin: 10px;
+        background-color: #A6C2CE;
+    }
+    .mfont2{
+        border-radius: 10% / 50% ;
+        width: 95px;
+        margin: 10px;
+        background-color: #ebc37a;
+    }
+    .mfont3{
+        border-radius: 10% / 50% ;
+        width: 95px;
+        margin: 10px;
+        background-color: #8f9fc9;
+    }
     .page{
         display: block;
         margin-left: 28%;
@@ -119,6 +169,12 @@
         margin-bottom: 13%;
     }
     .leftpart{
-        margin-left: 4%;
+        letter-spacing: 1.5px;
+        font-size:13px;
+        margin-left: 1%;
+    }
+    .special{
+        letter-spacing: 5px;
+        font-size: 14px;
     }
 }
