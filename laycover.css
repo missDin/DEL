@@ -12,7 +12,9 @@
     letter-spacing: 118px;
     color: rgb(255, 255, 16);
 }
-
+.M{
+    display: none;
+}
 
  a.aboutme{
     position: absolute;right:400px;top:260px;
@@ -40,7 +42,6 @@
 
 @media(max-width:1024px){
     .bg{
-        background-image:none;
         background-size: cover;
         background-image: url(draw.png);
         background-attachment: fixed;
@@ -78,29 +79,26 @@
 }
 
 @media(max-width:500px){
-    .bg{
-        background-color: rgb(47,27,199);
-        background-image: none;
-    }
     .del{
+        color: rgb(255, 255, 16);
         margin-top: 18%;
         letter-spacing: 60px;
         font-size: 580%;
     }
     a.aboutme{
-        position:absolute ;right:250px;top:480px;
+        position:absolute ;right:250px;top:420px;
         font-size: 18px;
         width: 100px;
         height:100px;
     }
     .protfo{
-        position:absolute ;right:68.5px;top:240px;
+        position:absolute ;right:68.5px;top:210px;
         font-size: 18px;
         width: 100px;
         height:100px;
     }
     .contact{
-        position:absolute ;right:12px;top:240px;
+        position:absolute ;right:12px;top:210px;
         font-size: 18px;
         width: 100px;
         height:100px;
