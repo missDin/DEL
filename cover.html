@@ -16,8 +16,14 @@
                     else if(mode=='3'){
                         img.src="./icons/conhover.png";
                     }
-                    else{
+                    else if{
                         img.src="./icons/contact.png";
+                    }
+                    else if(mode=='5'){
+                        img.src="./icons/abhover.png";
+                    }
+                    else{
+                        img.src="./icons/about me.png";
                     }
                 }
             </script>
@@ -25,20 +31,14 @@
         <body class="bg">
             <p class="del" style="user-select: none">D</p>
             <p class="del" style="user-select: none;margin-top:-70px ;">EL</p>
-            
-            <!-- <a href="https://www.palettable.io/FFE934-D14222" class="aboutme">
-                <img src="./icons/about me.png" style="width: 140px;height: 140px;">
-                <img src="./icons/abhover.png" style="width: 140px;height: 140px;">
-            </a> -->
- 
-                <a href="https://missdin.github.io/DEL-home-page/aboutme.html" class="aboutme"></a>
-                
-                <a href="https://missdin.github.io/DEL-home-page/works.html" class="protfo">
-                <img onmouseover="changeimg(this,1)" onmouseout="changeimg(this,2)" src="./icons/protfo.png" class="protfo"></a>
-                <a href="https://missdin.github.io/DEL-home-page/contact.html" class="contact">
-                <img onmouseover="changeimg(this,3)" onmouseout="changeimg(this,4)" src="./icons/contact.png" class="contact"></a>
-
-
+            <div class="button">
+                <a href="https://missdin.github.io/DEL-home-page/aboutme.html">
+                    <img onmouseover="changeimg(this,5)" onmouseout="changeimg(this,6)" src="./icons/about me.png" class="aboutme"></a>
+                <a href="https://missdin.github.io/DEL-home-page/works.html">
+                    <img onmouseover="changeimg(this,1)" onmouseout="changeimg(this,2)" src="./icons/protfo.png" class="protfo"></a>
+                <a href="https://missdin.github.io/DEL-home-page/contact.html">
+                    <img onmouseover="changeimg(this,3)" onmouseout="changeimg(this,4)" src="./icons/contact.png" class="contact"></a>
+            </div>
             <div style="color: white;background-color: rgba(0, 255, 255, 0.664);font-family:sans-serif;width: 280px;position: absolute;bottom: 6%;">
                 （建議使用PC端觀看來獲得最佳體驗）</div>
         </body>
