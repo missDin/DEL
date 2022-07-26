@@ -146,6 +146,7 @@ a{
         word-wrap:break-word;
         white-space:normal;
         margin-top: 2px;
+        margin-left: 5px;
     }
     .year{
         margin-left: 32%;
