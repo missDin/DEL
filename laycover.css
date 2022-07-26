@@ -12,33 +12,23 @@
     letter-spacing: 118px;
     color: rgb(255, 255, 16);
 }
-.M{
-    display: none;
+.button{
+    position: absolute;top:35%;right:12%;
 }
-
- a.aboutme{
-    position: absolute;right:400px;top:260px;
-    background-image: url("./icons/about me.png");
+.aboutme{
+    margin-right: 30px;
     width: 140px;
     height: 140px;
-    background-size:cover;
- }
- a.aboutme:hover{
-    background-image: url("./icons/abhover.png");
- }
-
+}
 .protfo{
-    position: absolute;right:200px;top:233px;
+    margin-right: 32px;  
     width: 140px;
     height: 140px;
 }
-
 .contact{
-    position: absolute;right:98px;top:130px;
     width: 140px;
     height: 140px;
 }
-
 
 @media(max-width:1024px){
     .bg{
@@ -46,65 +36,65 @@
         background-image: url(draw.png);
         background-attachment: fixed;
         background-repeat:no-repeat;
-        float: bottom;
     }
     .del{
         margin-top: 12%;
         letter-spacing: 66px;
         font-size: 650%;
     }
-    a.aboutme{
-        position:absolute ;right:20.3%;top:25%;
+    .button{
+        position: absolute;top:50%;right:25%;
+    }
+    .aboutme{
+        margin-right: 30px;
         font-size: 18px;
         width: 100px;
         height:100px;
     }
     .protfo{
-        position:absolute ;right:18%;top:36%;
+        margin-right: 30px;
         font-size: 18px;
         width: 100px;
         height:100px;
+
     }
     .contact{
-        position:absolute ;right:18%;top:48%;
         font-size: 18px;
         width: 100px;
         height:100px;
-    }
-    a{
-        position: relative;
-        top:40%;
+
     }
 
 }
 
 @media(max-width:500px){
+    .load{
+        position: absolute;top:35%;left:39%;
+    }
     .del{
         color: rgb(255, 255, 16);
         margin-top: 18%;
         letter-spacing: 60px;
         font-size: 580%;
     }
-    a.aboutme{
-        position:absolute ;right:250px;top:420px;
-        font-size: 18px;
-        width: 100px;
-        height:100px;
+    .button{
+        position: absolute;top:50%;right: 17%;
+    }
+    .aboutme{
+        margin-right: 10px;
+        font-size: 14px;
+        width: 80px;
+        height:80px;
     }
     .protfo{
-        position:absolute ;right:68.5px;top:210px;
-        font-size: 18px;
-        width: 100px;
-        height:100px;
+        margin-right: 12px;
+        font-size: 14px;
+        width: 80px;
+        height:80px;
     }
     .contact{
-        position:absolute ;right:12px;top:210px;
-        font-size: 18px;
-        width: 100px;
-        height:100px;
-    }
-    a{
-        position: relative;
-        top:40%;
+        font-size: 14px;
+        width: 80px;
+        height:80px;
     }
 }
