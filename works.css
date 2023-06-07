@@ -759,8 +759,8 @@ opacity: 1;
     .workscontain{
         align-items: center;
         position: absolute;
-        top: 7%;
-        left: 3%;
+        top: 2%;
+        left: 1.5%;
     }
 
     .cover{
@@ -783,7 +783,7 @@ opacity: 1;
     }
     .buttonMOB{
         display:flex;
-        position: fixed;bottom: 7%; left: 20%;
+        position: fixed;bottom: 4%; left: 20%;
         transition: 1s;
     }
     .icon{
