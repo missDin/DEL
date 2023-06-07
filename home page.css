@@ -6,7 +6,7 @@ a{
     position: absolute;
 }
 .bg{
-    background: url("BG PC.png") scroll no-repeat center;  
+    background: url("./BG PC.png") scroll no-repeat center;  
 }
 .DEL{
     position: absolute;top: 32%; left: 12%;
