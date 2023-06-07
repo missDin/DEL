@@ -33,6 +33,9 @@
       100%{transform: scale(0.5);opacity: 0.8;}
   }
 
+iframe{
+        width: 1200px;
+    }
 
 /*modal*/
 .modal {
@@ -562,6 +565,11 @@ a {
     .bg{
         background: url("100-94-4.png") #eec0cb scroll repeat center;
     }
+
+    iframe{
+        width: 450px;
+    }
+
     .top{
         position: absolute;top:2%;right:1%;
     }
@@ -951,5 +959,9 @@ opacity: 1;
 .demoM04:hover {
 opacity: 1;
 }
+	
+iframe{
+        width: 45px;
+    }
   
 }
