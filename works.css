@@ -34,7 +34,8 @@
   }
 
 iframe{
-        width: 1200px;
+       width: 960px;
+       height: 540x;
     }
 
 /*modal*/
@@ -567,7 +568,8 @@ a {
     }
 
     iframe{
-        width: 450px;
+       width: 480px;
+       height: 270px;
     }
 
     .top{
@@ -961,7 +963,8 @@ opacity: 1;
 }
 	
 iframe{
-        width: 45px;
+       width: 160px;
+       height: 90px;
     }
   
 }
