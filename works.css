@@ -797,7 +797,7 @@ opacity: 1;
         transition: 1s;
     }
     .icon{
-        width: 50px;
+        width: 60px;
     }
     .icon:hover{
         transform: translate(0px,-15px);
