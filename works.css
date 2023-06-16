@@ -583,7 +583,7 @@ a {
         align-items: center;
         position: absolute;
         top: 10%;
-        left: 10%;
+        left: 13%;
     }
 
     .cover{
@@ -616,7 +616,7 @@ a {
       }
 
     .openbutton{
-        width:550px;
+        width:800px;
         height:180px;
         margin: 10px;
     }
