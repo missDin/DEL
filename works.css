@@ -583,11 +583,11 @@ a {
         align-items: center;
         position: absolute;
         top: 10%;
-        left: 13%;
+        left: 10%;
     }
 
     .cover{
-        height: 180px;
+        height: 250px;
         margin-bottom: 18px;
         box-shadow: rgba(102, 47, 47, 0.25) 0px 50px 100px -20px,
          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -616,8 +616,8 @@ a {
       }
 
     .openbutton{
-        width:800px;
-        height:180px;
+        width:950px;
+        height:250px;
         margin: 10px;
     }
     
