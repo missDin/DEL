@@ -85,8 +85,8 @@ a{
     height:20px;
 }
 .text{
-    transform: translateX(-30px);
-    opacity: 0.6;
+    transform: translateX(-15px);
+    opacity: 0.3;
     padding: 15px;
     transition: 1s;
 }
