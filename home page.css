@@ -86,7 +86,7 @@ a{
 }
 .text{
     transform: translateX(-30px);
-    opacity: 0;
+    opacity: 0.5;
     padding: 15px;
     transition: 1s;
 }
